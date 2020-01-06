@@ -23,6 +23,7 @@ public class RedisTest {
     @Test
     public void redis() throws JsonProcessingException {
         //ddddddddddddddddddddddddddd
+        //eeeeeeeeeeeeeeeeeeeeeee
         //1、从redis中获得数据 数据的形式json字符串
         String value = redisTemplate.boundValueOps("findAll").get();
         //2、判断redis中是否存在数据
